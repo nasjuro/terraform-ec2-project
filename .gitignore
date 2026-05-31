@@ -1,0 +1,7 @@
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+crash.log
+sivka-iam_accessKeys.csv
+.terraform.lock.hcl
