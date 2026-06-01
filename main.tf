@@ -13,6 +13,9 @@ resource "aws_instance" "my_server" {
   }
 }
 
-resource "vpc" "my_testvpc" {
+resource "aws_vpc" "my_testvpc" {
   cidr_block = "10.0.0.0/16"
+  tags = {
+    Name = "MyTestVPC"
+  }
 }
