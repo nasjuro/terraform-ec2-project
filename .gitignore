@@ -4,3 +4,4 @@
 *.csv
 *.log
 *.hcl
+*.tfvars
